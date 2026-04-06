@@ -16,4 +16,4 @@ def test_somar():
 # ❌ TESTE ERRADO DE PROPÓSITO
 def test_multiplicar():
     response = client.get("/multiplicar/2/2")
-    assert response.json() == {"resultado": 5}
+    assert response.json() == {"resultado": 4}
